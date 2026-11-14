@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="VistaConsciente: pausas visuales, bienestar digital y seguimiento de hábitos.">
+<title>VistaConsciente | Bienestar visual</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+<div class="app">
+<aside class="sidebar" aria-label="Navegación principal"><div class="brand"><span aria-hidden="true">◉</span> VistaConsciente</div><p class="subtitle">Tu bienestar digital</p><nav aria-label="Secciones"><a href="#inicio" class="nav active" aria-current="page">Inicio</a><a href="#pausas" class="nav">Mis pausas</a><a href="#estadisticas" class="nav">Estadísticas</a><a href="#configuracion" class="nav">Configuración</a></nav><p class="sidebar-bottom">Accesibilidad<br><small>Navegación por teclado</small></p></aside>
+<main id="contenido" tabindex="-1"><header id="inicio"><h1>Bienvenida a VistaConsciente</h1><p>Organiza tus descansos y cuida tu salud visual mientras estudias.</p></header><div class="status" role="status" id="estado">● Recordatorios activos</div>
+<div class="cards"><section class="card timer" id="pausas" aria-labelledby="titulo-pausa"><h2 id="titulo-pausa">Tu próxima pausa visual</h2><p class="muted">Regla 20-20-20</p><div class="clock" id="clock" aria-live="off">20:00</div><p class="muted" id="instruccion">Mira un objeto a 6 metros durante 20 segundos.</p><div class="buttons"><button id="start" type="button">Iniciar pausa</button><button id="reset" type="button" class="secondary">Reiniciar</button></div><p class="feedback" id="feedback" role="status" aria-live="polite"></p></section>
+<section class="card progress" id="estadisticas" aria-labelledby="titulo-progreso"><h2 id="titulo-progreso">Tu progreso de hoy</h2><p class="muted">Pausas completadas</p><strong id="count">04 / 06</strong><div class="bar" role="progressbar" aria-label="Pausas completadas" aria-valuemin="0" aria-valuemax="6" aria-valuenow="4" id="progress"><div id="bar-inner"></div></div><p>¡Buen avance! Sigue cuidando tu vista.</p></section></div>
+<section class="tip"><h2>Consejo para estudiar mejor</h2><p>Ajusta el brillo de tu pantalla y evita reflejos directos.</p><p>Activa recordatorios y realiza pausas frecuentes para reducir la fatiga visual.</p></section>
+<section class="settings" id="configuracion"><h2>Preferencias de accesibilidad</h2><label class="check"><input id="reminders" type="checkbox" checked> Activar recordatorios visuales</label><p>Usa Tab para recorrer los controles. Todos muestran un contorno visible al recibir el foco.</p></section>
+<footer>VistaConsciente · Prototipo académico para evaluación de accesibilidad</footer></main></div><script src="script.js"></script></body></html>
